@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            body {
+                font-size: 30px;
+            }
+            h1 {
+                width: 900px;
+                margin: 0 auto;
+                background: #bbbbbb;
+                text-align: center;
+                margin-bottom: 30px;
+                font-size: 40px;
+            }
+            #grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 40px;
+                place-items: center;
+            }
+            .banco {
+                background-color: #008000;
+                text-align: center;
+                padding: 20px;
+                width: 350px;
+            }
+            .banco > span {
+                margin: 20px;
+                background-color: #c501c5;
+            }
+            #Insegnante {
+                grid-column: 1 / 4;
+                background-color: #aaabaa;
+                padding: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Disposizione dei banchi della classe 2L</h1>
+        <div id="grid">
+            <div class="banco">
+                <span>Galasso</span>
+                <span>Splandesci</span>
+            </div>
+            <div class="banco">
+                <span>Dessì</span>
+                <span>Usai</span>
+            </div>
+            <div class="banco">
+                <span>Furcas</span>
+                <span>Serra</span>
+            </div>
+            <div class="banco">
+                <span>Ceccio</span>
+                <span>Nossardi</span>
+            </div>
+            <div class="banco">
+                <span>Caddeu</span>
+                <span>Contu</span>
+            </div>
+            <div class="banco">
+                <span>Marongiu</span>
+                <span>Pisano</span>
+            </div>
+            <div class="banco">
+                <span>Congias</span>
+                <span>Nateri</span>
+            </div>
+            <div class="banco">
+                <span>Bonfigli</span>
+                <span>Vespa</span>
+            </div>
+            <div class="banco">
+                    <span>Sarli</span>
+                    <span>Deplano</span>
+            </div>
+            <div id="Insegnante">Insegnante</div>
+        </div>
+    </body>
+</html>
